@@ -1,0 +1,108 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-30T15:22:31.246Z",
+        "before": [
+          {
+            "result": {
+              "duration": 40515700000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "to validate the add to cart button functionality",
+        "description": "",
+        "id": "to-validate-the-add-to-cart-button--in-overstockart-application;to-validate-the-add-to-cart-button-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 116500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 216664300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user have to launch the Overstockart application in chrome browser",
+            "match": {
+              "location": "stepdfinition.userHaveToLaunchTheOverstockartApplicationInChromeBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2411966600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user have to enter the valid email and password",
+            "match": {
+              "location": "stepdfinition.userHaveToEnterTheValidEmailAndPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33443318300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have to search Traditional Art and add to cart the product",
+            "match": {
+              "location": "stepdfinition.userHaveToSearchTraditionalArtAndAddToCartTheProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39779300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "to verify product is added to cart",
+            "match": {
+              "location": "stepdfinition.toVerifyProductIsAddedToCart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "to validate the add to cart button  in Overstockart application",
+    "description": "",
+    "id": "to-validate-the-add-to-cart-button--in-overstockart-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Files/Addtocart.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
